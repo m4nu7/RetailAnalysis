@@ -1,0 +1,77 @@
+{
+    "description": "This is a transactional data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.",
+    "dataset_info": {
+        "Dataset Characteristics": "Multivariate, Sequential, Time-Series",
+        "Subject Area": "Business",
+        "Associated Tasks": "Classification, Clustering",
+        "Feature Type": "Integer, Real",
+        "# Instances": "541909",
+        "# Features": "6"
+    },
+    "df_table": [
+        {
+            "Variable Name": "Description",
+            "Role": "Feature",
+            "Type": "Categorical",
+            "Description": "product name",
+            "Units": "",
+            "Missing Values": "no"
+        },
+        {
+            "Variable Name": "Quantity",
+            "Role": "Feature",
+            "Type": "Integer",
+            "Description": "the quantities of each product (item) per transaction",
+            "Units": "",
+            "Missing Values": "no"
+        },
+        {
+            "Variable Name": "InvoiceDate",
+            "Role": "Feature",
+            "Type": "Date",
+            "Description": "the day and time when each transaction was generated",
+            "Units": "",
+            "Missing Values": "no"
+        },
+        {
+            "Variable Name": "UnitPrice",
+            "Role": "Feature",
+            "Type": "Continuous",
+            "Description": "product price per unit",
+            "Units": "sterling",
+            "Missing Values": "no"
+        },
+        {
+            "Variable Name": "CustomerID",
+            "Role": "Feature",
+            "Type": "Categorical",
+            "Description": "a 5-digit integral number uniquely assigned to each customer",
+            "Units": "",
+            "Missing Values": "no"
+        },
+        {
+            "Variable Name": "Country",
+            "Role": "Feature",
+            "Type": "Categorical",
+            "Description": "the name of the country where each customer resides",
+            "Units": "",
+            "Missing Values": "no"
+        },
+        {
+            "Variable Name": "InvoiceNo",
+            "Role": "ID",
+            "Type": "Categorical",
+            "Description": "a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation",
+            "Units": "",
+            "Missing Values": "no"
+        },
+        {
+            "Variable Name": "StockCode",
+            "Role": "ID",
+            "Type": "Categorical",
+            "Description": "a 5-digit integral number uniquely assigned to each distinct product",
+            "Units": "",
+            "Missing Values": "no"
+        }
+    ]
+}
